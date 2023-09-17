@@ -1,28 +1,28 @@
-
-#### Open my_shell
+## Open my_shell
 ```
 ./my_shell
 ```
 
-##### Function:
 
-1. parse the sentence
-Input
+## Function:
+
+### 1. parse the sentence
+* Input
 ```
 myshell -> system program
 ```
-Output
+* Output
 ```
 [0] system
 [1] program
 ```
 
-2. echo
-Input
+### 2. echo
+* Input
 ```
 myshell -> echo -n 2 one two three
 ```
-Output
+* Output
 ```
 [0] echo
 [1] -n
@@ -33,22 +33,22 @@ Output
 two
 ```
 
-3. terminate my_shell by input "exit", "quit", "logout" or "bye"
-Input
+### 3. terminate my_shell by input "exit", "quit", "logout" or "bye"
+* Input
 ```
 myshell -> quit
 ```
-Output
+* Output
 ```
 [0] quit
 ```
 
-4. run command
-Input
+### 4. run command
+* Input
 ```
 myshell -> ls -l
 ```
-Output
+* Output
 ```
 [0] ls
 [1] -l
@@ -58,8 +58,8 @@ Output
 ...
 ```
 
-5. run command at backgroud by adding "&"
-Input
+### 5. run command at backgroud by adding "&"
+* Input
 ```
 myshell -> sleep 10 &   
 ```
