@@ -7,21 +7,23 @@
 ##### Function:
 
 1. parse the sentence
+Input
 ```
-# Input
 myshell -> system program
-
-# Output
+```
+Output
+```
 [0] system
 [1] program
 ```
 
 2. echo
+Input
 ```
-# Input
 myshell -> echo -n 2 one two three
-
-# Output
+```
+Output
+```
 [0] echo
 [1] -n
 [2] 2
@@ -32,20 +34,22 @@ two
 ```
 
 3. terminate my_shell by input "exit", "quit", "logout" or "bye"
+Input
 ```
-# Input
 myshell -> quit
-
-# Output
+```
+Output
+```
 [0] quit
 ```
 
 4. run command
+Input
 ```
-# Input
 myshell -> ls -l
-
-# Output
+```
+Output
+```
 [0] ls
 [1] -l
 總用量 68
@@ -55,8 +59,8 @@ myshell -> ls -l
 ```
 
 5. run command at backgroud by adding "&"
+Input
 ```
-# Input
-myshell -> sleep 10 &    # check by using command "ps"
+myshell -> sleep 10 &   
 ```
-
+verify by using command "ps"
